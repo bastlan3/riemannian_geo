@@ -1,1 +1,79 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
 
+header {
+    background-color: #e0e0e0;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+}
+
+.section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.section h2 {
+    margin-top: 0;
+    color: #3498db;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.section li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 3px solid #ecf0f1;
+}
+
+.section strong { /* Style for terms, theorems, areas */
+    display: block; /* Make term appear on its own line */
+    margin-bottom: 5px;
+    color: #2980b9;
+}
+
+.section p {
+    margin: 0;
+}
+
+.sub-items { /* Style for nested items like curvature types */
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: 2px dashed #bdc3c7;
+}
+
+.prerequisites, .key-textbooks {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.prerequisites li, .key-textbooks li {
+    margin-bottom: 5px;
+    padding-left: 10px;
+    border-left: none; /* Remove double border */
+}
